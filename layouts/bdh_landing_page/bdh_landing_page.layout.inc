@@ -1,9 +1,10 @@
 name = BDH Landing Page
 description = Landing page for bowing down home.
+preview = preview.png
 template = bdh_landing_page
 
 ; Regions
-regions[top-nav] = Top Navigation
+regions[top-navigation] = Top Navigation
 regions[branding]       = Branding
 regions[content]        = Content
 regions[footer]         = Footer
