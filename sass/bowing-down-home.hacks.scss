@@ -20,7 +20,7 @@ img#print_btn {
 /*==============================================
 =            put in the layout file            =
 ==============================================*/
-.l-constrained {
+.l-constrained, .l-region--footer {
   max-width: 1140px;
   margin: 0 auto;
 }
@@ -29,6 +29,7 @@ img#print_btn {
   max-width: 600px;
   margin: 0 auto;
 }
+
 
 /*-----  End of put in the layout file  ------*/
 

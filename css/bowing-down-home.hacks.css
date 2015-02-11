@@ -16,7 +16,7 @@ img#print_btn {
 =            put in the layout file            =
 ==============================================*/
 /* line 23, ../sass/bowing-down-home.hacks.scss */
-.l-constrained {
+.l-constrained, .l-region--footer {
   max-width: 1140px;
   margin: 0 auto; }
 
