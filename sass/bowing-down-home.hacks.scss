@@ -20,6 +20,10 @@ img#print_btn {
 /*==============================================
 =            put in the layout file            =
 ==============================================*/
+.l-constrained {
+  max-width: 1140px;
+  margin: 0 auto;
+}
 
 .l-branding .l-constrained {
   max-width: 600px;

@@ -15,7 +15,12 @@ img#print_btn {
 /*==============================================
 =            put in the layout file            =
 ==============================================*/
-/* line 24, ../sass/bowing-down-home.hacks.scss */
+/* line 23, ../sass/bowing-down-home.hacks.scss */
+.l-constrained {
+  max-width: 1140px;
+  margin: 0 auto; }
+
+/* line 28, ../sass/bowing-down-home.hacks.scss */
 .l-branding .l-constrained {
   max-width: 600px;
   margin: 0 auto; }
