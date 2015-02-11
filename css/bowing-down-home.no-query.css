@@ -261,4 +261,9 @@ picture {
       .messages.status a:hover {
         color: black; }
 
+/* line 1, ../sass/base/_menus.scss */
+.menu .leaf {
+  list-style-image: none;
+  list-style-type: none; }
+
 /*# sourceMappingURL=bowing-down-home.no-query.css.map */
