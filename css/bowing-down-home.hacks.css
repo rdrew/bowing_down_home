@@ -12,4 +12,14 @@ img#print_btn {
   display: block;
   height: 24px; }
 
+/*==============================================
+=            put in the layout file            =
+==============================================*/
+/* line 24, ../sass/bowing-down-home.hacks.scss */
+.l-branding .l-constrained {
+  max-width: 600px;
+  margin: 0 auto; }
+
+/*-----  End of put in the layout file  ------*/
+
 /*# sourceMappingURL=bowing-down-home.hacks.css.map */
