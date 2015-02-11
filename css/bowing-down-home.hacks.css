@@ -1,10 +1,15 @@
 @media all and (max-width: 800px) {
+  /* line 3, ../sass/bowing-down-home.hacks.scss */
   #toolbar, #admin-menu {
-    display: none;
-  }
+    display: none; }
 
+  /* line 8, ../sass/bowing-down-home.hacks.scss */
   html body.toolbar, html body.admin-menu {
     padding-top: 0 !important;
-    margin-top: 0 !important;
-  }
-}
+    margin-top: 0 !important; } }
+/* line 15, ../sass/bowing-down-home.hacks.scss */
+img#print_btn {
+  display: block;
+  height: 24px; }
+
+/*# sourceMappingURL=bowing-down-home.hacks.css.map */
