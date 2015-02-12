@@ -1,4 +1,6 @@
+/* No files to import found in variables/**\/* */
 /* No files to import found in abstractions/**\/* */
+@import url(http://fonts.googleapis.com/css?family=Gabriela|Amaranth|Cuprum);
 /* line 1, ../sass/base/_buttons.scss */
 button, input[type="button"], input[type="reset"], input[type="submit"],
 button {
@@ -294,5 +296,20 @@ picture {
     /* line 52, ../../../../../../../../.rvm/gems/ruby-1.9.3-p550@omega.bowing_down_home/gems/compass-core-1.0.3/stylesheets/compass/typography/lists/_horizontal-list.scss */
     .top-nav .menu li.last {
       padding-right: 0; }
+
+/* line 1, ../sass/components/_islandora-hacks.scss */
+img#print_btn {
+  display: block;
+  height: 24px; }
+
+/* line 1, ../sass/components/_landingpage.scss */
+.l-constrained, .l-region--footer {
+  max-width: 1140px;
+  margin: 0 auto; }
+
+/* line 6, ../sass/components/_landingpage.scss */
+.l-branding .l-constrained {
+  max-width: 600px;
+  margin: 0 auto; }
 
 /*# sourceMappingURL=bowing-down-home.no-query.css.map */
