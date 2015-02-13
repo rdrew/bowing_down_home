@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AACA,iCAAkC;;EAChC,qBAAsB;IACpB,OAAO,EAAE,IAAI;;;EAIb,uCAA8B;IAC5B,WAAW,EAAE,YAAY;IACzB,UAAU,EAAE,YAAY;;AAK9B,aAAc;EACb,OAAO,EAAE,KAAK;EACd,MAAM,EAAE,IAAI;;;;;;AAMb,iCAAkC;EAChC,SAAS,EAAE,MAAM;EACjB,MAAM,EAAE,MAAM;;;AAGhB,0BAA2B;EACzB,SAAS,EAAE,KAAK;EAChB,MAAM,EAAE,MAAM",
+"mappings": "AACA,iCAAkC;;EAChC,qBAAsB;IACpB,OAAO,EAAE,IAAI;;;EAIb,uCAA8B;IAC5B,WAAW,EAAE,YAAY;IACzB,UAAU,EAAE,YAAY",
 "sources": ["../sass/bowing-down-home.hacks.scss"],
 "names": [],
 "file": "bowing-down-home.hacks.css"

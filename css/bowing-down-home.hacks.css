@@ -7,24 +7,5 @@
   html body.toolbar, html body.admin-menu {
     padding-top: 0 !important;
     margin-top: 0 !important; } }
-/* line 15, ../sass/bowing-down-home.hacks.scss */
-img#print_btn {
-  display: block;
-  height: 24px; }
-
-/*==============================================
-=            put in the layout file            =
-==============================================*/
-/* line 23, ../sass/bowing-down-home.hacks.scss */
-.l-constrained, .l-region--footer {
-  max-width: 1140px;
-  margin: 0 auto; }
-
-/* line 28, ../sass/bowing-down-home.hacks.scss */
-.l-branding .l-constrained {
-  max-width: 600px;
-  margin: 0 auto; }
-
-/*-----  End of put in the layout file  ------*/
 
 /*# sourceMappingURL=bowing-down-home.hacks.css.map */
