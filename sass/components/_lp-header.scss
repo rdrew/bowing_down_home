@@ -1,0 +1,48 @@
+.top-nav {
+	background: $rust;
+	.menu {
+		@include horizontal-list;
+		li {
+			padding: 5px 10px;
+			a {
+				color: white;
+				text-transform: uppercase;
+				font-size: em(13);
+			}
+			&:hover {
+				background: $tan;
+				color: $rust;
+			}
+		}
+	}
+}
+#site-logo img {
+	margin: 20px 0;
+}
+.l-branding {
+	background: lightyellow;
+}
+.l-region--branding {
+	.menu {
+		@include horizontal-list;
+		background: $rust;
+		margin-bottom: 20px;
+	}
+}
+.l-region--branding .menu {
+	a {
+		color: white;
+		text-transform: uppercase;
+		text-align: center;
+	}
+	li {
+		width: 20%;
+		padding: 10px;
+		text-align: center;
+	}
+	li:first-child {
+	}
+}
+footer {
+	background: $gray;
+}

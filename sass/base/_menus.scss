@@ -1,0 +1,8 @@
+.menu .leaf {
+list-style-image: none;
+list-style-type: none;
+}
+
+.top-nav .menu {
+	@include horizontal-list;
+}
