@@ -348,17 +348,18 @@ img#print_btn {
       padding: 5px 10px; }
       /* line 7, ../sass/components/_lp-header.scss */
       .top-nav .menu li a {
-        color: #D2966E; }
-      /* line 10, ../sass/components/_lp-header.scss */
+        color: white;
+        text-transform: uppercase; }
+      /* line 11, ../sass/components/_lp-header.scss */
       .top-nav .menu li:hover {
         background: #D2966E;
         color: #995051; }
 
-/* line 19, ../sass/components/_lp-header.scss */
+/* line 18, ../sass/components/_lp-header.scss */
 #site-logo {
   margin: 20px 0; }
 
-/* line 23, ../sass/components/_lp-header.scss */
+/* line 22, ../sass/components/_lp-header.scss */
 .l-region--branding .menu {
   margin: 0;
   padding: 0;
@@ -389,9 +390,10 @@ img#print_btn {
     .l-region--branding .menu li.last {
       padding-right: 0; }
 
-/* line 30, ../sass/components/_lp-header.scss */
+/* line 29, ../sass/components/_lp-header.scss */
 .l-region--branding .menu a {
-  color: wheat;
+  color: white;
+  text-transform: uppercase;
   text-align: center; }
 /* line 34, ../sass/components/_lp-header.scss */
 .l-region--branding .menu li {
@@ -399,7 +401,7 @@ img#print_btn {
   padding: 10px;
   text-align: center; }
 
-/* line 45, ../sass/components/_lp-header.scss */
+/* line 42, ../sass/components/_lp-header.scss */
 footer {
   background: #918B8C; }
 
