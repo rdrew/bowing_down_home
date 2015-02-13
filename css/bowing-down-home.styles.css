@@ -412,13 +412,13 @@ footer {
 
 /* line 1, ../sass/components/_lp-searchbox.scss */
 .l-region--branding input[type="text"] {
-  background-color: #fff;
-  border: 1px solid #ddd;
-  border-radius: 3px;
+  background-color: transparent;
+  border: 8px solid #995051;
+  border-radius: 0px;
   box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06);
   box-sizing: border-box;
   font-family: "Cuprum", sans-serif;
-  font-size: 1em;
+  font-size: 1.5em;
   margin-bottom: 0.75em;
   padding: 0.5em;
   transition: border-color;
@@ -426,7 +426,7 @@ footer {
   width: 87%; }
   /* line 17, ../sass/components/_lp-searchbox.scss */
   .l-region--branding input[type="text"]:hover {
-    border-color: #c4c4c4; }
+    border-color: #783e3f; }
   /* line 21, ../sass/components/_lp-searchbox.scss */
   .l-region--branding input[type="text"]:focus {
     border-color: #995051;
