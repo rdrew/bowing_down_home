@@ -1,0 +1,36 @@
+.l-region--branding input[type="text"] {
+
+  background-color: transparent;
+  border: 8px solid $rust;
+  border-radius: 0px;
+  box-shadow: $form-box-shadow;
+  box-sizing: border-box;
+  font-family: $base-font-family;
+  font-size: em(24);
+  margin-bottom: $base-spacing / 2;
+  padding: $base-spacing / 3;
+  transition: border-color;
+  display: inline-block;
+  width: 87%;
+
+
+  &:hover {
+    border-color: darken($rust, 10%);
+  }
+
+  &:focus {
+    border-color: $action-color;
+    box-shadow: $form-box-shadow-focus;
+    outline: none;
+  }
+}
+
+.l-region--branding {
+
+  input[type="submit"] {
+  // background: url(https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/search-icon.png) no-repeat;
+  // background-color: $rust;
+  // text-indent: -9999px;
+}
+
+}
