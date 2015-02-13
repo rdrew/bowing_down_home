@@ -12,6 +12,8 @@ stylesheets[all][] = css/bowing-down-home.normalize.css
 stylesheets[all][] = css/bowing-down-home.hacks.css
 stylesheets[all][] = css/bowing-down-home.styles.css
 stylesheets[all][] = css/bowing-down-home.no-query.css
+stylesheets[all][] = css/rosie.css
+
 
 ; ========================================
 ; Scripts
