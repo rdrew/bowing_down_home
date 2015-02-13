@@ -360,10 +360,6 @@ img#print_btn {
 #site-logo img {
   margin: 20px 0; }
 
-/* line 22, ../sass/components/_lp-header.scss */
-.l-branding {
-  background: lightyellow; }
-
 /* line 26, ../sass/components/_lp-header.scss */
 .l-region--branding .menu {
   margin: 0;
