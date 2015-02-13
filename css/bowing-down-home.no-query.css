@@ -361,51 +361,52 @@ img#print_btn {
   margin: 20px 0; }
 
 /* line 22, ../sass/components/_lp-header.scss */
-.l-region--branding {
+.l-branding.sitebranding {
   background: lightyellow; }
-  /* line 24, ../sass/components/_lp-header.scss */
-  .l-region--branding .menu {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    background: #995051;
-    margin-bottom: 20px; }
-    /* line 20, ../sass/bourbon/addons/_clearfix.scss */
-    .l-region--branding .menu::after {
-      clear: both;
-      content: "";
-      display: table; }
-    /* line 62, ../../../../../../../../.rvm/gems/ruby-1.9.3-p550@omega.bowing_down_home/gems/compass-core-1.0.3/stylesheets/compass/typography/lists/_horizontal-list.scss */
-    .l-region--branding .menu li {
-      list-style-image: none;
-      list-style-type: none;
-      margin-left: 0;
-      white-space: nowrap;
-      float: left;
-      padding-left: 4px;
-      padding-right: 4px; }
-      /* line 49, ../../../../../../../../.rvm/gems/ruby-1.9.3-p550@omega.bowing_down_home/gems/compass-core-1.0.3/stylesheets/compass/typography/lists/_horizontal-list.scss */
-      .l-region--branding .menu li:first-child {
-        padding-left: 0; }
-      /* line 50, ../../../../../../../../.rvm/gems/ruby-1.9.3-p550@omega.bowing_down_home/gems/compass-core-1.0.3/stylesheets/compass/typography/lists/_horizontal-list.scss */
-      .l-region--branding .menu li:last-child {
-        padding-right: 0; }
-      /* line 52, ../../../../../../../../.rvm/gems/ruby-1.9.3-p550@omega.bowing_down_home/gems/compass-core-1.0.3/stylesheets/compass/typography/lists/_horizontal-list.scss */
-      .l-region--branding .menu li.last {
-        padding-right: 0; }
 
-/* line 31, ../sass/components/_lp-header.scss */
+/* line 26, ../sass/components/_lp-header.scss */
+.l-region--branding .menu {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: #995051;
+  margin-bottom: 20px; }
+  /* line 20, ../sass/bourbon/addons/_clearfix.scss */
+  .l-region--branding .menu::after {
+    clear: both;
+    content: "";
+    display: table; }
+  /* line 62, ../../../../../../../../.rvm/gems/ruby-1.9.3-p550@omega.bowing_down_home/gems/compass-core-1.0.3/stylesheets/compass/typography/lists/_horizontal-list.scss */
+  .l-region--branding .menu li {
+    list-style-image: none;
+    list-style-type: none;
+    margin-left: 0;
+    white-space: nowrap;
+    float: left;
+    padding-left: 4px;
+    padding-right: 4px; }
+    /* line 49, ../../../../../../../../.rvm/gems/ruby-1.9.3-p550@omega.bowing_down_home/gems/compass-core-1.0.3/stylesheets/compass/typography/lists/_horizontal-list.scss */
+    .l-region--branding .menu li:first-child {
+      padding-left: 0; }
+    /* line 50, ../../../../../../../../.rvm/gems/ruby-1.9.3-p550@omega.bowing_down_home/gems/compass-core-1.0.3/stylesheets/compass/typography/lists/_horizontal-list.scss */
+    .l-region--branding .menu li:last-child {
+      padding-right: 0; }
+    /* line 52, ../../../../../../../../.rvm/gems/ruby-1.9.3-p550@omega.bowing_down_home/gems/compass-core-1.0.3/stylesheets/compass/typography/lists/_horizontal-list.scss */
+    .l-region--branding .menu li.last {
+      padding-right: 0; }
+
+/* line 33, ../sass/components/_lp-header.scss */
 .l-region--branding .menu a {
   color: white;
   text-transform: uppercase;
   text-align: center; }
-/* line 36, ../sass/components/_lp-header.scss */
+/* line 38, ../sass/components/_lp-header.scss */
 .l-region--branding .menu li {
   width: 20%;
   padding: 10px;
   text-align: center; }
 
-/* line 44, ../sass/components/_lp-header.scss */
+/* line 46, ../sass/components/_lp-header.scss */
 footer {
   background: #918B8C; }
 
