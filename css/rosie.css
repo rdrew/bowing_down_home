@@ -1,2 +1,127 @@
 /*This file is for Rosie's css. It is avoided by the sass compiler and I will need to add it to the scss files later if they are to be kept.*/
 
+.breadcrumb {
+  display: none;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+tr.odd > td.active {
+background-color: #dadada;
+}
+
+tr.even > td.active {
+background-color: #eaeaea;
+}
+
+td, th{
+padding-left: 0.75em;
+}
+
+.now-playing {
+ padding: 0.5em;
+}
+
+.audiojs p {
+  padding: none;
+}
+
+.view-islandora-is-speaker-in-audio {
+ max-width: 800px;
+}
+
+/* Make the main menu (Fiddlers Tunes etc) horizontal and centered. */
+
+#block-system-main-menu ul li a {
+  display: inline-block;
+  width: 19%;
+  line-height: 91px;
+  text-align: center;
+}
+#block-system-main-menu ul li {
+float: none;
+display: inline;
+  vertical-align: middle;
+  height: 91px;
+  width: 19%;
+}
+#block-system-main-menu ul {
+  height: 91px;
+}
+
+/* Fix the slideshow so the thumbnails are horizontal. */
+
+.views_slideshow_pager_field div {
+display: inline;
+}
+.view-islandora-related-images {
+text-align: center;
+}
+.views-slideshow-cycle-main-frame {
+ margin-left: auto;
+margin-right: auto;
+}
+
+.views-slideshow-cycle-main-frame-row-item {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Fix the colour of the footer so that the museum logo shows up */
+footer {
+  background: #eaeaea;
+}
+
+/* Fix the size of block titles. */
+
+h2.block__title {
+  font-size: 1.6em;
+  padding-top: 2em;
+}
+
+.view-video-blocks .views-field-fgs-label-s {
+  font-size: 1.3em;
+}
+.view-video-blocks li {
+padding-bottom: 2em;
+}
+
+/* Fancy up the mini panels on the front page? */
+.pane-three-features {
+  /* Orange border on top */
+  border-top: 8px solid #C98559;
+  padding-top: 16px;
+  
+}
+
+  /* Exact size thumbnails */
+.pane-three-features img {
+  height: 250px;
+  display: block;
+  margin-left: auto; 
+  margin-right: auto;
+  overflow: hidden;
+}
+
+/* Red label with white text */
+.pane-three-features .views-field-fgs-label-s {
+  background-color: #873C3F;
+  color: #cacaca;
+  padding: 5px;
+}
+
+.pane-three-features .views-label-fgs-label-s {
+display: block;
+color: white;
+}
+.pane-three-features .views-field-fgs-label-s a {
+  color: #cacaca;
+}
+
+/* More space between the search bar and teh content on teh front page. */
+
+.site-branding {
+padding-bottom: 24px;
+}
