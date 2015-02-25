@@ -1,3 +1,7 @@
+.node-type-landing-page .l-header {
+	background: white;
+}
+
 .l-constrained, .l-region--footer {
   max-width: 1140px;
   margin: 0 auto;
@@ -8,8 +12,16 @@
   margin: 0 auto;
 }
 .l-branding.site-branding {
+	@include breakpoint($phone) {
 	background: url("/sites/all/themes/bowing_down_home/images/dirt_road.png");
 	background-size: cover;
 	height: 500px;
 	margin-bottom: 1em;
+	}
+}
+
+/* sets a fixed height on the block labels at the bottom of the page */
+
+.views-field.views-field-fgs-label-s {
+height: 85px;
 }

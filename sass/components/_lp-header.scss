@@ -1,4 +1,11 @@
 .top-nav {
+	display: none;
+	@include breakpoint($phone) {
+		display: block;
+	}
+}
+
+.top-nav {
 	background: $rust;
 	.menu {
 		@include horizontal-list;
@@ -16,9 +23,25 @@
 		}
 	}
 }
-#site-logo img {
-	margin-top: 60px;
-	margin-bottom: 20px;
+
+#site-logo-color {
+	display: none;
+	@include breakpoint($phone) {
+		display: block;
+	}
+}
+#site-logo-white {
+	display: block;
+	background: $rust;
+	padding: 10px;
+	margin-bottom: 5px;
+	@include breakpoint($phone) {
+		display: none;
+	}
+}
+#site-logo-color img {
+	margin-top: 35px;
+	margin-bottom: 10px;
 }
 .l-branding {
 	// background: lightyellow;

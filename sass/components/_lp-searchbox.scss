@@ -1,6 +1,6 @@
 .l-region--branding input[type="text"] {
 
-  background-color: transparent;
+  background-color: rgba(253, 253, 253, 0.21);
   border: 8px solid $rust;
   border-radius: 0px;
   box-shadow: $form-box-shadow;
@@ -11,7 +11,13 @@
   padding: $base-spacing / 3;
   transition: border-color;
   display: inline-block;
-  width: 87%;
+  // width: 87%;
+  color: $rust;
+  @include breakpoint($phone) {
+    color: #fff;
+  }
+  font-weight: bold;
+  font-size: 2em;
 
 
   &:hover {
@@ -28,6 +34,7 @@
 .l-region--branding {
 
   input[type="submit"] {
+    display: none;
   // background: url(https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/search-icon.png) no-repeat;
   // background-color: $rust;
   // text-indent: -9999px;
