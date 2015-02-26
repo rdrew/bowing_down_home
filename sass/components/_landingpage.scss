@@ -1,4 +1,10 @@
 .node-type-landing-page .l-header {
+  margin: 0px;
+}
+.top-nav {
+  font-family: $cuprum;
+}
+.node-type-landing-page .l-header {
 	background: white;
 }
 
@@ -17,6 +23,7 @@
 	background-size: cover;
 	height: 500px;
 	margin-bottom: 1em;
+	padding-bottom: 2em;
 	}
 }
 
@@ -24,4 +31,32 @@
 
 .views-field.views-field-fgs-label-s {
 height: 85px;
+}
+
+.node--landing-page p {
+    font-size: 1em;
+    @include breakpoint($phone) {
+    	font-size: 1.5em;
+    }
+}
+
+.l-content {
+    padding: 1em;
+}
+
+.pane-three-features {
+  font-family: $cuprum;
+  @include add-grid(12);
+  @include clearfix;
+  @include breakpoint($phone) {
+    .featured_image {
+    @include grid-span(4, 1);
+  }
+  .featured_audio {
+    @include grid-span(4, 5);
+  }
+  .featured_video {
+    @include grid-span(4, 9);
+  }
+  }
 }

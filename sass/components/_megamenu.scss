@@ -12,6 +12,7 @@ font-size: 22px;
 .tb-megamenu {
     background-color: $rust;
   margin-bottom: 5px;
+  font-family: $cuprum;
   @include breakpoint($phone) {
     margin-bottom: 20px;
   }
@@ -31,15 +32,24 @@ font-size: 22px;
 .tb-megamenu .nav > li {
   float: left;
   margin-left: 0;
+  // rob added
+  width: 20%;
 }
 .tb-megamenu .nav > li > a {
-  border-right: 0px;
+    border-right: 0px;
     border-top: 0;
     color: #fff;
     font-weight: initial;
-    padding: 20px 34px 15px;
+    padding: 20px 13px 15px;
     text-shadow: none;
     text-transform: uppercase;
+    // rob added
+    text-align: center;
+
+  @include breakpoint($phone) {
+    font-weight: initial;
+    padding: 20px 34px 15px;
+  }
 }
 .tb-megamenu .nav > li > a:focus,
 .tb-megamenu .nav > li > a:hover {

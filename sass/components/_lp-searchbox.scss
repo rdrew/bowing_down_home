@@ -5,16 +5,17 @@
   border-radius: 0px;
   box-shadow: $form-box-shadow;
   box-sizing: border-box;
-  font-family: $base-font-family;
+  font-family: $cuprum;
   font-size: em(24);
-  margin-bottom: $base-spacing / 2;
+  margin-bottom: 0px;
   padding: $base-spacing / 3;
   transition: border-color;
   display: inline-block;
   // width: 87%;
   color: $rust;
-  @include breakpoint($phone) {
+  @include breakpoint(600px) {
     color: #fff;
+    margin-bottom: $base-spacing / 2;
   }
   font-weight: bold;
   font-size: 2em;

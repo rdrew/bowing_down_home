@@ -120,16 +120,16 @@ color: white;
   color: #cacaca;
 }
 
-/* More space between the search bar and teh content on teh front page. */
+/* More space between the search bar and teh content on teh front page.---rob added to sass */
 
-.site-branding {
+/*.site-branding {
 padding-bottom: 24px;
-}
+}*/
 
-/* Front page p text is bigger */
-.node--landing-page p {
+/* Front page p text is bigger --- rob added this to the sass */
+/*.node--landing-page p {
   font-size: 1.5em;
-}
+}*/
 .node--landing-page h2 {
   font-size: 2em;
 }
