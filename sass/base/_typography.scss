@@ -53,3 +53,9 @@ picture {
   margin: 0;
   max-width: 100%;
 }
+blockquote {
+border-left: 4px solid #ccc;
+padding-left: 1em;
+font-family: $cuprum;
+font-size: 1.1em;
+}

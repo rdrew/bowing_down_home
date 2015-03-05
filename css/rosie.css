@@ -53,12 +53,12 @@ display: inline;
 
 /* Fix the slideshow so the thumbnails are horizontal. */
 
-.views_slideshow_pager_field div {
+/*.views_slideshow_pager_field div {
 display: inline;
-}
-.view-islandora-related-images {
+}*/
+/*.view-islandora-related-images {
 text-align: center;
-}
+}*/
 .views-slideshow-cycle-main-frame {
  margin-left: auto;
 margin-right: auto;

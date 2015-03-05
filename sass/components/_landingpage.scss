@@ -8,10 +8,13 @@
 	background: white;
 }
 
-.l-constrained, .l-region--footer {
+.node-type-landing-page {
+  .l-constrained, .l-region--footer {
   max-width: 1140px;
   margin: 0 auto;
 }
+}
+
 
 .l-branding .l-constrained {
   max-width: 600px;
@@ -29,7 +32,7 @@
 
 /* sets a fixed height on the block labels at the bottom of the page */
 
-.views-field.views-field-fgs-label-s {
+.node-type-landing-page .views-field-fgs-label-s {
 height: 85px;
 }
 

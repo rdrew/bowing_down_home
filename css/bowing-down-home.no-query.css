@@ -220,6 +220,13 @@ picture {
   margin: 0;
   max-width: 100%; }
 
+/* line 56, ../sass/base/_typography.scss */
+blockquote {
+  border-left: 4px solid #ccc;
+  padding-left: 1em;
+  font-family: "Cuprum", sans-serif;
+  font-size: 1.1em; }
+
 /* line 44, ../sass/base/_flashes.scss */
 .messages {
   border: none; }
@@ -303,7 +310,7 @@ picture {
   padding: 10px; }
 
 /* line 5, ../sass/components/_basic-pages.scss */
-.l-main {
+.has-sidebar-first .l-main {
   background: #995051; }
 
 /* line 9, ../sass/components/_basic-pages.scss */
@@ -325,6 +332,93 @@ picture {
 .l-header, .l-main, .l-footer {
   margin-bottom: 10px !important; }
 
+/* line 1, ../sass/components/_footer.scss */
+footer.l-footer {
+  background: none;
+  margin-top: 50px;
+  padding: 0 25px; }
+
+/* line 9, ../sass/components/_footer.scss */
+.pane-footer-with-menu .islandora_logo {
+  width: 28.57143%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 0;
+  clear: none;
+  text-align: right;
+  padding-top: 40px; }
+/* line 14, ../sass/components/_footer.scss */
+.pane-footer-with-menu .cmh_logo {
+  width: 28.57143%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 35.71429%;
+  clear: none;
+  padding-top: 10px; }
+/* line 18, ../sass/components/_footer.scss */
+.pane-footer-with-menu .upei_logo {
+  width: 28.57143%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none;
+  padding-top: 3px; }
+/* line 20, ../sass/bourbon/addons/_clearfix.scss */
+.pane-footer-with-menu::after {
+  clear: both;
+  content: "";
+  display: table; }
+
+/* line 26, ../sass/components/_footer.scss */
+.footer_menu {
+  width: 100%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none;
+  padding-bottom: 38px; }
+  /* line 29, ../sass/components/_footer.scss */
+  .footer_menu ul.menu {
+    margin: 0;
+    padding: 0;
+    border: 0; }
+    /* line 20, ../sass/bourbon/addons/_clearfix.scss */
+    .footer_menu ul.menu::after {
+      clear: both;
+      content: "";
+      display: table; }
+    /* line 62, ../../../Users/rdrew/.rvm/gems/ruby-1.9.3-p551@omega.bowing_down_home/gems/compass-core-1.0.3/stylesheets/compass/typography/lists/_horizontal-list.scss */
+    .footer_menu ul.menu li {
+      list-style-image: none;
+      list-style-type: none;
+      margin-left: 0;
+      white-space: nowrap;
+      float: left;
+      padding-left: 4px;
+      padding-right: 4px; }
+      /* line 49, ../../../Users/rdrew/.rvm/gems/ruby-1.9.3-p551@omega.bowing_down_home/gems/compass-core-1.0.3/stylesheets/compass/typography/lists/_horizontal-list.scss */
+      .footer_menu ul.menu li:first-child {
+        padding-left: 0; }
+      /* line 50, ../../../Users/rdrew/.rvm/gems/ruby-1.9.3-p551@omega.bowing_down_home/gems/compass-core-1.0.3/stylesheets/compass/typography/lists/_horizontal-list.scss */
+      .footer_menu ul.menu li:last-child {
+        padding-right: 0; }
+      /* line 52, ../../../Users/rdrew/.rvm/gems/ruby-1.9.3-p551@omega.bowing_down_home/gems/compass-core-1.0.3/stylesheets/compass/typography/lists/_horizontal-list.scss */
+      .footer_menu ul.menu li.last {
+        padding-right: 0; }
+    /* line 32, ../sass/components/_footer.scss */
+    .footer_menu ul.menu li {
+      border-right: 1px solid #995051;
+      padding-left: 6px;
+      padding-right: 6px; }
+      /* line 37, ../sass/components/_footer.scss */
+      .footer_menu ul.menu li:last-child {
+        border-right: 0px; }
+    /* line 41, ../sass/components/_footer.scss */
+    .footer_menu ul.menu li a {
+      font-family: "Amaranth";
+      text-transform: uppercase;
+      font-size: .8em; }
+
 /* line 1, ../sass/components/_islandora-hacks.scss */
 img#print_btn {
   display: block;
@@ -342,6 +436,112 @@ nav#block-system-main-menu a {
 .l-branding .site-logo img {
   padding-top: 10px; }
 
+/* ==========================================================================
+   people pages
+   ========================================================================== */
+/* line 22, ../sass/components/_islandora-pages.scss */
+.people .col-left .islandora-object-image {
+  border: 1px solid #ccc;
+  padding: 5px;
+  margin-bottom: 1em; }
+/* line 27, ../sass/components/_islandora-pages.scss */
+.people .col-left img {
+  width: 100%;
+  display: block; }
+/* line 31, ../sass/components/_islandora-pages.scss */
+.people .col-left fieldset {
+  background-color: #995051;
+  border: 1px solid #ddd;
+  margin: 0 0 0.75em;
+  padding: 1.5em;
+  color: #D2966E; }
+  /* line 38, ../sass/components/_islandora-pages.scss */
+  .people .col-left fieldset legend {
+    display: none; }
+/* line 44, ../sass/components/_islandora-pages.scss */
+.people .biography .bio {
+  display: none; }
+
+/* line 61, ../sass/components/_islandora-pages.scss */
+.islandora-metadata dt.first, .islandora-metadata dd.first {
+  padding-top: 0px;
+  border-top: 0; }
+
+/* line 65, ../sass/components/_islandora-pages.scss */
+.islandora-inline-metadata {
+  font-family: "Cuprum", sans-serif;
+  font-size: 1.2em; }
+  /* line 68, ../sass/components/_islandora-pages.scss */
+  .islandora-inline-metadata dt {
+    width: 40%;
+    color: #D2966E;
+    padding-top: 20px; }
+  /* line 73, ../sass/components/_islandora-pages.scss */
+  .islandora-inline-metadata dd {
+    width: 60%;
+    color: #fff;
+    padding-top: 20px; }
+    /* line 78, ../sass/components/_islandora-pages.scss */
+    .islandora-inline-metadata dd a {
+      color: #D2966E; }
+      /* line 80, ../sass/components/_islandora-pages.scss */
+      .islandora-inline-metadata dd a:hover {
+        color: #fff;
+        text-decoration: underline; }
+
+/* line 88, ../sass/components/_islandora-pages.scss */
+.islandora-metadata dt.first, .islandora-metadata dd.first {
+  padding-top: 0px;
+  border-top: 0; }
+
+/* ==========================================================================
+   views slideshow - people pages
+   ========================================================================== */
+/* line 96, ../sass/components/_islandora-pages.scss */
+.views-slideshow-controls-bottom {
+  width: 100%; }
+
+/* line 105, ../sass/components/_islandora-pages.scss */
+.view-islandora-related-images {
+  margin-bottom: 20px; }
+  /* line 20, ../sass/bourbon/addons/_clearfix.scss */
+  .view-islandora-related-images::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+/* line 110, ../sass/components/_islandora-pages.scss */
+div#views_slideshow_cycle_main_islandora_related_images-block {
+  height: 480px;
+  overflow: hidden; }
+
+/* line 121, ../sass/components/_islandora-pages.scss */
+.views_slideshow_cycle_slide {
+  width: 100% !important; }
+
+/* line 125, ../sass/components/_islandora-pages.scss */
+.views_slideshow_cycle_slide img {
+  width: 100%; }
+
+/* line 128, ../sass/components/_islandora-pages.scss */
+.views_slideshow_pager_field div {
+  display: inline-block; }
+
+/* line 132, ../sass/components/_islandora-pages.scss */
+.views-slideshow-cycle-main-frame {
+  width: 100% !important; }
+
+/* line 135, ../sass/components/_islandora-pages.scss */
+.views-slideshow-pager-field-item {
+  width: 24%;
+  height: 90px;
+  overflow: hidden; }
+
+/* line 140, ../sass/components/_islandora-pages.scss */
+.contextual-links-region.panel-pane.pane-block.pane-views-383226c2089d8afb220fec82bbcc349c {
+  clear: both;
+  margin-top: 20px; }
+
 /* line 1, ../sass/components/_landingpage.scss */
 .node-type-landing-page .l-header {
   margin: 0px; }
@@ -354,30 +554,30 @@ nav#block-system-main-menu a {
 .node-type-landing-page .l-header {
   background: white; }
 
-/* line 11, ../sass/components/_landingpage.scss */
-.l-constrained, .l-region--footer {
+/* line 12, ../sass/components/_landingpage.scss */
+.node-type-landing-page .l-constrained, .node-type-landing-page .l-region--footer {
   max-width: 1140px;
   margin: 0 auto; }
 
-/* line 16, ../sass/components/_landingpage.scss */
+/* line 19, ../sass/components/_landingpage.scss */
 .l-branding .l-constrained {
   max-width: 600px;
   margin: 0 auto; }
 
 /* sets a fixed height on the block labels at the bottom of the page */
-/* line 32, ../sass/components/_landingpage.scss */
-.views-field.views-field-fgs-label-s {
+/* line 35, ../sass/components/_landingpage.scss */
+.node-type-landing-page .views-field-fgs-label-s {
   height: 85px; }
 
-/* line 36, ../sass/components/_landingpage.scss */
+/* line 39, ../sass/components/_landingpage.scss */
 .node--landing-page p {
   font-size: 1em; }
 
-/* line 43, ../sass/components/_landingpage.scss */
+/* line 46, ../sass/components/_landingpage.scss */
 .l-content {
   padding: 1em; }
 
-/* line 47, ../sass/components/_landingpage.scss */
+/* line 50, ../sass/components/_landingpage.scss */
 .pane-three-features {
   font-family: "Cuprum", sans-serif; }
   /* line 20, ../sass/bourbon/addons/_clearfix.scss */
@@ -2557,5 +2757,44 @@ footer {
     /* line 35, ../sass/components/_sidebar-nav.scss */
     .l-region--sidebar-first ul ul li a.active {
       color: #fff; }
+
+/* line 1, ../sass/components/_slideshow.scss */
+#flexslider-1 {
+  width: 50%;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  color: #fff;
+  background: #995051; }
+  /* line 8, ../sass/components/_slideshow.scss */
+  #flexslider-1 .slides li {
+    height: 462px;
+    overflow: hidden; }
+  /* line 12, ../sass/components/_slideshow.scss */
+  #flexslider-1 .flex-direction-nav a {
+    text-decoration: none;
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin: -5px 0 0;
+    position: absolute;
+    top: 29%;
+    z-index: 10;
+    overflow: initial;
+    opacity: 0;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.8);
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out; }
+  /* line 32, ../sass/components/_slideshow.scss */
+  #flexslider-1 .flex-control-nav li {
+    height: 95px;
+    overflow: hidden; }
+  /* line 37, ../sass/components/_slideshow.scss */
+  #flexslider-1 .flexslider .flex-direction-nav a, #flexslider-1 .flexslider .flex-direction-nav a {
+    display: initial; }
 
 /*# sourceMappingURL=bowing-down-home.no-query.css.map */
