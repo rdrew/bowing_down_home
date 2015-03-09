@@ -1,44 +1,42 @@
-.l-region--branding input[type="text"] {
-
-  background-color: rgba(253, 253, 253, 0.21);
-  border: 8px solid $rust;
-  border-radius: 0px;
-  box-shadow: $form-box-shadow;
-  box-sizing: border-box;
-  font-family: $cuprum;
-  font-size: em(24);
-  margin-bottom: 0px;
-  padding: $base-spacing / 3;
-  transition: border-color;
-  display: inline-block;
-  // width: 87%;
-  color: $rust;
-  @include breakpoint(600px) {
-    color: #fff;
-    margin-bottom: $base-spacing / 2;
-  }
-  font-weight: bold;
-  font-size: 2em;
-
-
-  &:hover {
-    border-color: darken($rust, 10%);
-  }
-
-  &:focus {
-    border-color: $action-color;
-    box-shadow: $form-box-shadow-focus;
-    outline: none;
-  }
-}
-
-.l-region--branding {
-
+.searchbar {
   input[type="submit"] {
     display: none;
-  // background: url(https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/search-icon.png) no-repeat;
-  // background-color: $rust;
-  // text-indent: -9999px;
+  }
+  input[type="text"] {
+    background-color: rgba(253, 253, 253, 0.21);
+    border: 8px solid $rust;
+    border-radius: 0px;
+    box-shadow: $form-box-shadow;
+    box-sizing: border-box;
+    font-family: $cuprum;
+    font-size: em(24);
+    margin-bottom: 0px;
+    padding: $base-spacing / 3;
+    transition: border-color;
+    display: inline-block;
+    // width: 87%;
+    color: $rust;
+
+    @include breakpoint(600px) {
+      color: #fff;
+      margin-bottom: $base-spacing / 2;
+    }
+      font-weight: bold;
+      font-size: 2em;
+
+    &:hover {
+      border-color: darken($rust, 10%);
+    }
+    &:focus {
+      border-color: $action-color;
+      box-shadow: $form-box-shadow-focus;
+      outline: none;
+    }
+  }
+  
 }
 
+.searchbar.menu input[type="text"] {
+  margin-top: 30px;
+  padding: 1em;
 }

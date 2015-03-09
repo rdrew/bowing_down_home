@@ -7,5 +7,8 @@
   html body.toolbar, html body.admin-menu {
     padding-top: 0 !important;
     margin-top: 0 !important; } }
+/* line 15, ../sass/bowing-down-home.hacks.scss */
+.audiojs .play-pause {
+  box-sizing: initial; }
 
 /*# sourceMappingURL=bowing-down-home.hacks.css.map */

@@ -62,13 +62,16 @@ color: #fff;
 .tb-megamenu .nav > .active > a,
 .tb-megamenu .nav > .active > a:hover,
 .tb-megamenu .nav > .active > a:focus {
-  background-color: #e54e4b;
+  background-color: $tan;
   color: #fff;
   text-shadow: none; 
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
   outline: none;
+}
+.tb-megamenu .nav > .active > a, {
+  background-color: $rust;
 }
 .tb-megamenu .btn-navbar {
   display: none;
@@ -174,7 +177,7 @@ color: #fff;
 .tb-megamenu .tb-block ul li,
 .tb-megamenu .tb-block .nav li {
   background: none;
-  list-style: disc;
+  // list-style: disc;
   display: list-item;
   float: none;
   margin: 0;
@@ -200,6 +203,7 @@ color: #fff;
 .tb-megamenu .tb-block .nav li a:active {
   background: none;
   font: inherit;
+  color: #fff;
 }
 .tb-megamenu .mega-caption {
   color: #999;
@@ -1680,4 +1684,38 @@ color: #fff;
 .tb-megamenu-submenu.dropdown-menu.mega-dropdown-menu.nav-child {
 width: 100% !important;
 }
+
+/* ==========================================================================
+   overrides
+   ========================================================================== */
+.lp_menu .nav > li.searchbar {
+display: none;
+}
+.tb-megamenu {
+  h2.block__title {
+    font-size: initial;
+    padding-top: initial;}
+
+    .view-footer p {
+      margin: 0px;
+    }
+  }
+
+// styling for the full tune list
+.tb-megamenu .dropdown-menu span.tune_list_link {
+  a {
+    background: $tan;
+    font-size: 1.5em;
+    padding-left: 0px;
+    padding-top: 10px;
+    color: #fff;
+    &:hover {
+      color: #333;
+    }
+  }
+}
+
+
+
+
 
