@@ -1,0 +1,89 @@
+// .panel-pane.pane-page-content {
+//     width: 50%;
+//     float: left;
+// }
+
+// .tune_snippets_from_tune {
+//     width: 47%;
+//     float: right;
+// }
+
+// .tune_snippets_from_tune h2 {
+//     display: none;
+// }
+
+
+.view-islandora-is-speaker-in-audio {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+
+.page-islandora-object-bdh851,
+.page-islandora-object-bdh1009,
+.page-islandora-object-bdh1053,
+.page-islandora-object-bdh1055,
+.page-islandora-object-bdh1186,
+.page-islandora-object-bdh1280,
+.page-islandora-object-bdh1305,
+.page-islandora-object-bdh1333 {
+	.islandora-object.islandora {
+	@include breakpoint($phone) {
+		@include add-grid(12);
+	// .col-left {
+	// 	@include grid-span(12, 1);
+	// 	@include clearfix;
+	// }
+	.islandora-object-content.islandora-tune {
+		@include grid-span(6, 7);
+	}
+	.pdfjs.islandora-tune {
+		@include grid-span(6, 1);
+	}
+	} 
+}
+}
+
+
+
+
+.islandora-object-metadata.islandora-tune * {
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+  background: none;
+}
+.islandora-object-metadata.islandora-tune {
+	legend {
+	display: none;
+}
+.islandora-metadata-fields {
+	.first {
+		display: none;
+	}
+	dt {
+		width: 50%;
+  text-align: right; 
+  padding-right: 0px;
+	}
+	dd{
+		width: 50%;
+  text-align: left; 
+  padding-left: 20px;
+	}
+}
+fieldset.islandora.islandora-metadata {
+    @include breakpoint($phone) {
+    	width: 400px;
+    }
+    margin: 0 auto;
+    margin-bottom: 40px;
+
+}
+}
+
+
+
+
+
+
