@@ -28,9 +28,7 @@ padding-left: 0.75em;
   padding: none;
 }
 
-.view-islandora-is-speaker-in-audio {
- max-width: 800px;
-}
+
 
 /* Make the main menu (Fiddlers Tunes etc) horizontal and centered. */
 
@@ -69,10 +67,6 @@ margin-right: auto;
   margin-right: auto;
 }
 
-/* Fix the colour of the footer so that the museum logo shows up */
-footer {
-  background: #eaeaea;
-}
 
 /* Fix the size of block titles. */
 
@@ -88,37 +82,6 @@ h2.block__title {
 padding-bottom: 2em;
 }
 
-/* Fancy up the mini panels on the front page? */
-.pane-three-features {
-  /* Orange border on top */
-  border-top: 8px solid #C98559;
-  padding-top: 16px;
-  
-}
-
-  /* Exact size thumbnails */
-.pane-three-features img {
-  height: 250px;
-  display: block;
-  margin-left: auto; 
-  margin-right: auto;
-  overflow: hidden;
-}
-
-/* Red label with white text */
-.pane-three-features .views-field-fgs-label-s {
-  background-color: #873C3F;
-  color: #cacaca;
-  padding: 5px;
-}
-
-.pane-three-features .views-label-fgs-label-s {
-display: block;
-color: white;
-}
-.pane-three-features .views-field-fgs-label-s a {
-  color: #cacaca;
-}
 
 /* More space between the search bar and teh content on teh front page.---rob added to sass */
 
@@ -138,4 +101,11 @@ padding-bottom: 24px;
 
 .pane-system-main-menu a {
  color: #fff;
+}
+
+.bowing-announcements {
+  max-width: 800px;
+  margin: 2em auto;
+  border: 8px solid #995051;
+  padding: 0.5em;
 }

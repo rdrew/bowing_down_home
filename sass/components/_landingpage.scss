@@ -32,9 +32,8 @@
 
 /* sets a fixed height on the block labels at the bottom of the page */
 
-.pane-three-features .views-field-fgs-label-s {
-height: 85px;
-}
+
+
 
 .node--landing-page p {
     font-size: 1em;
@@ -49,6 +48,7 @@ height: 85px;
 
 .pane-three-features {
   font-family: $cuprum;
+
   @include add-grid(12);
   @include clearfix;
   @include breakpoint($phone) {
@@ -62,4 +62,43 @@ height: 85px;
     @include grid-span(4, 9);
   }
   }
+  .views-row {
+  border: 1px solid rgb(135, 60, 63);
+  border-radius: 4px;
+  margin-bottom: 20px;
 }
+}
+/*=======================================
+=            3 features blocks            =
+=======================================*/
+
+.pane-three-features .views-field-fgs-label-s {
+@include breakpoint($phone) {height: 85px;}
+a {
+  color: #cacaca;
+  font-size: .9em;
+}
+}
+
+
+/* Fancy up the mini panels on the front page? */
+.pane-three-features {  /* Orange border on top */
+border-top: 8px solid #C98559; padding-top: 16px; }
+
+/* Exact size thumbnails */
+.pane-three-features img {
+  @include breakpoint($phone) {
+    height: 250px;
+  }
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+
+/* Red label with white text */
+.pane-three-features .views-field-fgs-label-s { background-color: #873C3F; color: #cacaca; padding: 5px; }
+.pane-three-features .views-label-fgs-label-s { display: block; color: white; }
+.pane-three-features .views-field-fgs-label-s a { color: #cacaca; }
+
+/*-----  End of 3 features blocks  ------*/
