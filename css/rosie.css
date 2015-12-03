@@ -109,3 +109,20 @@ padding-bottom: 24px;
   border: 8px solid #995051;
   padding: 0.5em;
 }
+
+.cke_editable img, .node--announcement img{
+  width: 200px;
+  float: left;
+  margin-right: 15px;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+	}
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; }
