@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AACA,iCAAkC;;EAChC,qBAAsB;IACpB,OAAO,EAAE,IAAI;;;EAIb,uCAA8B;IAC5B,WAAW,EAAE,YAAY;IACzB,UAAU,EAAE,YAAY;;AAK9B,oBAAqB;EAErB,UAAU,EAAE,OAAO",
-"sources": ["../sass/bowing-down-home.hacks.scss"],
-"names": [],
-"file": "bowing-down-home.hacks.css"
-}
