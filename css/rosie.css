@@ -126,3 +126,19 @@ padding-bottom: 24px;
 	}
 * html .clearfix             { zoom: 1; } /* IE6 */
 *:first-child+html .clearfix { zoom: 1; }
+
+
+
+/*front mobile banner*/
+.mobile-banner {
+	display:none;
+}
+@media only screen and (max-width:599px) {
+	.mobile-banner {
+		display:block;
+		margin: 0;
+		margin-top: 5px;
+		line-height: 0;
+		border: 7px solid #995051;
+	}
+}
