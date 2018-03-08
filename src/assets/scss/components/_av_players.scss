@@ -1,0 +1,19 @@
+.views-field-video-MP4-stream-player {
+  border: 1px solid #ccc;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.audiojs {
+	width: 100%;
+	@include breakpoint($phone) {
+		width: 460px;
+	}
+}
+.now-playing {
+  max-width: 100%;
+  @include breakpoint($phone) {
+		max-width: 40%;
+		text-align: right;
+	}
+}

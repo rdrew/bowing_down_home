@@ -1,0 +1,80 @@
+/* ==========================================================================
+   top nav bar
+   ========================================================================== */
+.top-nav {
+	display: none;
+	@include breakpoint($phone) {
+		display: block;
+	}
+}
+
+.top-nav { background: $rust;
+	.menu { @include horizontal-list; width: 617px; margin: 0 auto;
+		li { padding: 5px 18px;
+			a { color: white; text-transform: uppercase; font-size: em(13); }
+			&:hover { background: $tan; color: $rust; transition: background ease .5s; }
+		}
+		li:first-child{ padding-left: 10px; }
+		li:last-child { padding-right: 10px; }
+	}
+}
+
+
+.node-type-landing-page .l-branding {
+	background-color: #fff;
+}
+
+/* ==========================================================================
+   site logo
+   ========================================================================== */
+
+#site-logo-color {
+	display: none;
+	@include breakpoint($phone) {
+		display: block;
+	}
+}
+#site-logo-white {
+	display: block;
+	background: $rust;
+	padding: 10px;
+	margin-bottom: 5px;
+	@include breakpoint($phone) {
+		display: none;
+	}
+}
+#site-logo-color img {
+	margin-top: 35px;
+	margin-bottom: 10px;
+}
+
+
+// the below can be tossed if the menus look fine with out it 
+
+
+// .l-region--branding {
+// 	.menu {
+// 		@include horizontal-list;
+// 		background: $rust;
+// 		margin-bottom: 20px;
+// 	}
+// }
+// .l-region--branding .menu {
+// 	a {
+// 		color: white;
+// 		text-transform: uppercase;
+// 		text-align: center;
+// 	}
+// 	li {
+// 		width: 20%;
+// 		padding: 10px;
+// 		text-align: center;
+// 	}
+// 	li:first-child {
+// 	}
+// }
+
+
+
+
+
