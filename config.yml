@@ -5,7 +5,7 @@ URL: "bowingdownhome.ca"
 ASSETS_DIR: "dist/assets"
 
     #Path on server to remote assets folder (escape the slashes; no trailing slash)
-REMOTE_ASSETS_PATH: "sites/all/themes/bowing_down_home/"
+REMOTE_ASSETS_PATH: "/sites/all/themes/bowing_down_home/dist/assets"
 
 LOCALPROXY: "http://drupal7.dev/"
 

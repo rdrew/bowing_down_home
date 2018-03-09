@@ -1692,6 +1692,13 @@ width: 100% !important;
 /* ==========================================================================
    overrides
    ========================================================================== */
+    .tb-megamenu-row {
+
+        display:flex !important;
+div#tb-megamenu-column-9 {
+    width: 100%;
+}
+    }
 .lp_menu .nav > li.searchbar {
 display: none;
 }

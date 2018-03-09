@@ -1,3 +1,4 @@
+//@format
 // .panel-pane.pane-page-content {
 //     width: 50%;
 //     float: left;
@@ -8,17 +9,62 @@
 //     float: right;
 // }
 
-// .tune_snippets_from_tune h2 {
-//     display: none;
-// }
-
-
-.view-islandora-is-speaker-in-audio {
-  max-width: 800px;
-  margin: 0 auto;
+.pane-tune-variants h2,
+.tune_snippets_from_tune h2 {
+    margin: 2rem;
 }
 
+.view-islandora-is-speaker-in-audio {
+    //max-width: 800px;
+    margin: 0 auto;
+}
+.view-tune-menu {
+    select,
+    input {
+        margin-bottom: 0;
+    }
+    .views-exposed-widgets {
+        > * {
+            //outline: 1px red solid;
+            padding: 0.5rem;
+            &:first-child {
+                padding-left: 0;
+            }
+            &:last-child {
+                padding-right: 0;
+            }
+        }
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
 
+        #edit-catch-all-fields-mt-wrapper {
+            width: 400px;
+        }
+        //@include add-grid(12);
+        //#edit-catch-all-fields-mt-wrapper {
+        //@include grid-span(3, 1);
+        //}
+        //#edit-mods-genre-authority-local-s-wrapper {
+        //@include grid-span(2, 4);
+        //}
+        //#edit-tune-page-wrapper {
+        //@include grid-span(3, 6);
+        //}
+
+        //#edit-rels-ext-r3-is-realised-in-uri-ms-wrapper {
+        //@include grid-span(3, 9);
+        //}
+        //.views-submit-button {
+        //@include grid-span(1, 11);
+        //}
+    }
+}
+
+#edit-submit-tune-menu {
+    display: block;
+    margin: 0;
+}
 .page-islandora-object-bdh851,
 .page-islandora-object-bdh1009,
 .page-islandora-object-bdh1053,
@@ -27,63 +73,53 @@
 .page-islandora-object-bdh1280,
 .page-islandora-object-bdh1305,
 .page-islandora-object-bdh1333 {
-	.islandora-object.islandora {
-	@include media($phone) {
-		@include add-grid(12);
-	// .col-left {
-	// 	@include grid-span(12, 1);
-	// 	@include clearfix;
-	// }
-	.islandora-object-content.islandora-tune {
-		@include grid-span(6, 7);
-	}
-	.pdfjs.islandora-tune {
-		@include grid-span(6, 1);
-	}
-	} 
+    .islandora-object.islandora {
+        @include media($phone) {
+            @include add-grid(12);
+            // .col-left {
+            // 	@include grid-span(12, 1);
+            // 	@include clearfix;
+            // }
+            .islandora-object-content.islandora-tune {
+                @include grid-span(6, 7);
+            }
+            .pdfjs.islandora-tune {
+                @include grid-span(6, 1);
+            }
+        }
+    }
 }
-}
-
-
-
 
 .islandora-object-metadata.islandora-tune * {
-  border: 0px;
-  margin: 0px;
-  padding: 0px;
-  background: none;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    background: none;
 }
 .islandora-object-metadata.islandora-tune {
-	legend {
-	display: none;
-}
-.islandora-metadata-fields {
-	.first {
-		display: none;
-	}
-	dt {
-		width: 50%;
-  text-align: right; 
-  padding-right: 0px;
-	}
-	dd{
-		width: 50%;
-  text-align: left; 
-  padding-left: 20px;
-	}
-}
-fieldset.islandora.islandora-metadata {
-    @include media($phone) {
-    	width: 400px;
+    legend {
+        display: none;
     }
-    margin: 0 auto;
-    margin-bottom: 40px;
-
+    .islandora-metadata-fields {
+        .first {
+            display: none;
+        }
+        dt {
+            width: 50%;
+            text-align: right;
+            padding-right: 0px;
+        }
+        dd {
+            width: 50%;
+            text-align: left;
+            padding-left: 20px;
+        }
+    }
+    fieldset.islandora.islandora-metadata {
+        @include media($phone) {
+            width: 400px;
+        }
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
 }
-}
-
-
-
-
-
-
