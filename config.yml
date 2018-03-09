@@ -1,11 +1,11 @@
     #Url of the site to be proxied
-URL: "www.lmmontgomery.ca"
+URL: "bowingdownhome.ca"
 
     #Root assets folder (contains /css/, /js/ etc)
 ASSETS_DIR: "dist/assets"
 
     #Path on server to remote assets folder (escape the slashes; no trailing slash)
-REMOTE_ASSETS_PATH: "http://www.lmmontgomery.ca/sites/www.lmmontgomery.ca/themes/lmmi_2015/dist/assets"
+REMOTE_ASSETS_PATH: "sites/all/themes/bowing_down_home/"
 
 LOCALPROXY: "http://drupal7.dev/"
 

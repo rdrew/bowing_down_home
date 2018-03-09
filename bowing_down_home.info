@@ -8,16 +8,21 @@ core = 7.x
 ; ========================================
 ; Stylesheets
 ; ========================================
-stylesheets[all][] = css/bowing-down-home.normalize.css
-stylesheets[all][] = css/bowing-down-home.hacks.css
-stylesheets[all][] = css/bowing-down-home.styles.css
-stylesheets[all][] = css/bowing-down-home.no-query.css
-stylesheets[all][] = css/rosie.css
+;stylesheets[all][] = css/bowing-down-home.normalize.css
+;stylesheets[all][] = css/bowing-down-home.hacks.css
+;stylesheets[all][] = css/bowing-down-home.styles.css
+;stylesheets[all][] = css/bowing-down-home.no-query.css
+;stylesheets[all][] = css/rosie.css
+stylesheets[all][] = dist/assets/css/bowing-down-home.normalize.css
+stylesheets[all][] = dist/assets/css/bowing-down-home.hacks.css
+stylesheets[all][] = dist/assets/css/bowing-down-home.styles.css
+stylesheets[all][] = dist/assets/css/bowing-down-home.no-query.css
 
 ; ========================================
 ; Scripts
 ; ========================================
-scripts[] = js/bowing-down-home.behaviors.js
+;scripts[] = js/bowing-down-home.behaviors.js
+scripts[] = dist/assets/js/bowing-down-home.behaviors.js
 
 ; ========================================
 ; Regions

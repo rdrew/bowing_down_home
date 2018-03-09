@@ -77,5 +77,14 @@ module.exports = __webpack_require__(1);
 "use strict";
 
 
+(function ($) {
+
+  Drupal.behaviors.bowingDownHomeExampleBehavior = {
+    attach: function (context, settings) {
+      //stuff
+    }
+  };
+})(jQuery);
+
 /***/ })
 /******/ ]);

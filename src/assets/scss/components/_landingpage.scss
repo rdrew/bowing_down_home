@@ -23,6 +23,7 @@
 .l-branding.site-branding {
 	@include media($phone) {
 	background: url("/sites/all/themes/bowing_down_home/images/dirt_road.png");
+	background: url("../images/dirt_road.png");
 	background-size: cover;
 	height: 500px;
 	margin-bottom: 1em;

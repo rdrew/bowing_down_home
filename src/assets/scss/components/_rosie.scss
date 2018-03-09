@@ -1,0 +1,144 @@
+/*This file is for Rosie's css. It is avoided by the sass compiler and I will need to add it to the scss files later if they are to be kept.*/
+
+.breadcrumb {
+  display: none;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+tr.odd > td.active {
+background-color: #dadada;
+}
+
+tr.even > td.active {
+background-color: #eaeaea;
+}
+
+td, th{
+padding-left: 0.75em;
+}
+
+.now-playing {
+ padding: 0.5em;
+}
+
+.audiojs p {
+  padding: none;
+}
+
+
+
+/* Make the main menu (Fiddlers Tunes etc) horizontal and centered. */
+
+.pane-system-main-menu ul li a {
+  display: inline-block;
+  width: 19%;
+  line-height: 91px;
+  text-align: center;
+}
+.pane-system-main-menu ul li {
+float: none;
+display: inline;
+  vertical-align: middle;
+  height: 91px;
+  width: 19%;
+}
+.pane-system-main-menu ul {
+  height: 91px;
+}
+
+/* Fix the slideshow so the thumbnails are horizontal. */
+
+/*.views_slideshow_pager_field div {
+display: inline;
+}*/
+/*.view-islandora-related-images {
+text-align: center;
+}*/
+.views-slideshow-cycle-main-frame {
+ margin-left: auto;
+margin-right: auto;
+}
+
+.views-slideshow-cycle-main-frame-row-item {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* Fix the size of block titles. */
+
+h2.block__title {
+  font-size: 1.6em;
+  padding-top: 2em;
+}
+
+.view-video-blocks .views-field-fgs-label-s {
+  font-size: 1.3em;
+}
+.view-video-blocks li {
+padding-bottom: 2em;
+}
+
+
+/* More space between the search bar and teh content on teh front page.---rob added to sass */
+
+/*.site-branding {
+padding-bottom: 24px;
+}*/
+
+/* Front page p text is bigger --- rob added this to the sass */
+/*.node--landing-page p {
+  font-size: 1.5em;
+}*/
+.node--landing-page h2 {
+  font-size: 2em;
+}
+  
+/* Main menu links show up on red background. */
+
+.pane-system-main-menu a {
+ color: #fff;
+}
+
+.bowing-announcements {
+  max-width: 800px;
+  margin: 2em auto;
+  border: 8px solid #995051;
+  padding: 0.5em;
+}
+
+.cke_editable img, .node--announcement img{
+  width: 200px;
+  float: left;
+  margin-right: 15px;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+	}
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; }
+
+
+
+/*front mobile banner*/
+.mobile-banner {
+	display:none;
+}
+@media only screen and (max-width:599px) {
+	.mobile-banner {
+		display:block;
+		margin: 0;
+		margin-top: 5px;
+		line-height: 0;
+		border: 7px solid #995051;
+	}
+}

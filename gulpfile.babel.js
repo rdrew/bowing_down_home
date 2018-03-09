@@ -44,12 +44,9 @@ gulp.task('build',
     gulp.series(clean, gulp.parallel(sass, javascript, images, copy)));
 
 // Build the site, run the server, and watch for file changes
-gulp.task('brute',
+gulp.task('default',
     gulp.series('build', serverRemote, watch));
 
-// Build the site, run the server, and watch for file changes
-gulp.task('default',
-    gulp.series('build', server, watch));
 
 //==================
 // Process Functions
