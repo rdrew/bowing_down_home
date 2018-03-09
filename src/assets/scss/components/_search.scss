@@ -1,7 +1,7 @@
 dl.solr-thumb {
 	float: none;
 	width: 94px;
-	@include breakpoint($phone) {
+	@include media($phone) {
 		float: left;
 		width: 15%;
 	}
@@ -10,7 +10,7 @@ dl.solr-thumb {
 dl.solr-fields {
 	float: none;
 	width: 100%;
-  @include breakpoint($phone) {
+  @include media($phone) {
   	float: right;
     width: 83%;}
 }

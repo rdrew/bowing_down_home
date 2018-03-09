@@ -28,7 +28,7 @@
 .page-islandora-object-bdh1305,
 .page-islandora-object-bdh1333 {
 	.islandora-object.islandora {
-	@include breakpoint($phone) {
+	@include media($phone) {
 		@include add-grid(12);
 	// .col-left {
 	// 	@include grid-span(12, 1);
@@ -73,7 +73,7 @@
 	}
 }
 fieldset.islandora.islandora-metadata {
-    @include breakpoint($phone) {
+    @include media($phone) {
     	width: 400px;
     }
     margin: 0 auto;

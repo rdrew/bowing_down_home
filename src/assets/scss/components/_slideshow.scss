@@ -41,7 +41,7 @@
 	}
 }
 
-@include breakpoint(800px) {
+@include media(800px) {
 	.flexslider .slides {
 		width: 50%;
 		float: left;

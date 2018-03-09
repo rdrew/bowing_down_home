@@ -3,7 +3,7 @@
    ========================================================================== */
 .top-nav {
 	display: none;
-	@include breakpoint($phone) {
+	@include media($phone) {
 		display: block;
 	}
 }
@@ -30,7 +30,7 @@
 
 #site-logo-color {
 	display: none;
-	@include breakpoint($phone) {
+	@include media($phone) {
 		display: block;
 	}
 }
@@ -39,7 +39,7 @@
 	background: $rust;
 	padding: 10px;
 	margin-bottom: 5px;
-	@include breakpoint($phone) {
+	@include media($phone) {
 		display: none;
 	}
 }

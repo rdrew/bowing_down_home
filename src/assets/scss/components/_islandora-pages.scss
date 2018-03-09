@@ -16,14 +16,14 @@ color: #fff;
 padding-top: 10px;
 }
 }
-@include breakpoint(0 $phone) {
+@include media(0 $phone) {
 	.l-branding {
   padding: 10px 10px 0;
   border-bottom: 4px solid #fff;
 }
 }
 
-@include breakpoint($phone) {
+@include media($phone) {
 	.page-islandora .l-header, .page-filters .l-header, .page-fiddlers .l-header {
 		padding: 10px 10px 0px 10px;
 	}
@@ -68,7 +68,7 @@ padding-top: 10px;
 		}
 	}
 }
-@include breakpoint($phone) {
+@include media($phone) {
 	.people {
 		@include add-grid(12);
 
@@ -117,7 +117,7 @@ padding-top: 10px;
    ========================================================================== */	
 .views-slideshow-controls-bottom {
 		width: 100%;
-	@include breakpoint($phone) {
+	@include media($phone) {
 		width: 48%;
 		float: left;
 		margin-left: 10px;
@@ -133,7 +133,7 @@ div#views_slideshow_cycle_main_islandora_related_images-block {
     
     height: 480px;
     overflow: hidden;
-    @include breakpoint($phone) {
+    @include media($phone) {
 		width: 45%;
 		float: left;
 		margin-left: 10px;
@@ -159,7 +159,7 @@ div#views_slideshow_cycle_main_islandora_related_images-block {
     height: 90px;
     overflow: hidden;
 }
-@include breakpoint(800px) {
+@include media(800px) {
 	.tune_snippets {
     clear: both;
   margin-top: 20px;
@@ -198,7 +198,7 @@ h2.pane-title {
 	.video-js { width: 100% !important; }
 	.views-field-fgs-label-s { font-size: 1.2em; line-height: 1.2; text-align: center; }
 	.views-field-mods-note-ms { text-align: center; margin: 10px 0; }
-	@include breakpoint($phone) { .views-row { width: 48%; }
+	@include media($phone) { .views-row { width: 48%; }
 		.views-row-odd { float: left; }
 		.views-row-even { float: right; }
 		.views-field-fgs-label-s { font-size: 1.3em; line-height: 1.4; text-align: left; }
@@ -236,7 +236,7 @@ table.views-table.cols-0 {
     border-radius: 4px;
     margin: 0 auto;
     margin-bottom: 10px;
-    @include breakpoint($phone) {width: 50%;}
+    @include media($phone) {width: 50%;}
 }
 
 .islandora-large-image-metadata {
@@ -260,7 +260,7 @@ table.views-table.cols-0 {
     text-align: center;
     margin: 0 auto;
     padding: 5px;
-    @include breakpoint($phone) {width: 50%;}
+    @include media($phone) {width: 50%;}
 }
 
 /*-----  End of islandora metadats display tweaks  ------*/

@@ -21,7 +21,7 @@
   margin: 0 auto;
 }
 .l-branding.site-branding {
-	@include breakpoint($phone) {
+	@include media($phone) {
 	background: url("/sites/all/themes/bowing_down_home/images/dirt_road.png");
 	background-size: cover;
 	height: 500px;
@@ -37,7 +37,7 @@
 
 .node--landing-page p {
     font-size: 1em;
-    @include breakpoint($phone) {
+    @include media($phone) {
     	font-size: 1.5em;
     }
 }
@@ -51,7 +51,7 @@
 
   @include add-grid(12);
   @include clearfix;
-  @include breakpoint($phone) {
+  @include media($phone) {
     .featured_image {
     @include grid-span(4, 1);
   }
@@ -73,7 +73,7 @@
 =======================================*/
 
 .pane-three-features .views-field-fgs-label-s {
-@include breakpoint($phone) {height: 85px;}
+@include media($phone) {height: 85px;}
 a {
   color: #cacaca;
   font-size: .9em;
@@ -87,7 +87,7 @@ border-top: 8px solid #C98559; padding-top: 16px; }
 
 /* Exact size thumbnails */
 .pane-three-features img {
-  @include breakpoint($phone) {
+  @include media($phone) {
     height: 250px;
   }
   display: block;

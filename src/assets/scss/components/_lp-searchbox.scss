@@ -17,7 +17,7 @@
     // width: 87%;
     color: $rust;
 
-    @include breakpoint(600px) {
+    @include media(600px) {
       color: #fff;
       margin-bottom: $base-spacing / 2;
     }

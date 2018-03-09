@@ -13,7 +13,7 @@ font-size: 22px;
     background-color: $rust;
   margin-bottom: 5px;
   font-family: $cuprum;
-  @include breakpoint($phone) {
+  @include media($phone) {
     margin-bottom: 20px;
   }
 }
@@ -47,7 +47,7 @@ font-size: 22px;
     text-align: center;
     font-size: 14px;
 
-  @include breakpoint($phone) {
+  @include media($phone) {
     font-weight: initial;
     font-size: inherit;
     padding: 20px 20px 15px;

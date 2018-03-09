@@ -5,7 +5,7 @@
   li.searchbar {
     display: none;
   }
-  @include breakpoint($phone) {
+  @include media($phone) {
      li.searchbar {
     display: block;
   }

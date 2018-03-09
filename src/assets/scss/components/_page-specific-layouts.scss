@@ -4,7 +4,7 @@
 
 .page-islandora-object-bdh313 {
 	.view-video-blocks {
-		@include breakpoint($phone) { 
+		@include media($phone) { 
 		.views-row { width: 700px;
 		margin: 0 auto; }
 		.views-row-odd { float: none; }
