@@ -1,5 +1,6 @@
 .searchbar {
-  input[type="submit"] {
+  input[type="submit"],
+  label {
     display: none;
   }
   input[type="text"] {
