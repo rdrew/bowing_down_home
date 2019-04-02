@@ -22,7 +22,7 @@ stylesheets[all][] = dist/assets/css/bowing-down-home.no-query.css
 ; Scripts
 ; ========================================
 ;scripts[] = js/bowing-down-home.behaviors.js
-scripts[] = dist/assets/js/bowing-down-home.behaviors.js
+scripts[] = dist/assets/js/app.js
 
 ; ========================================
 ; Regions
