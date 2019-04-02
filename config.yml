@@ -1,5 +1,5 @@
     #Url of the site to be proxied
-URL: "bowingdownhome.ca"
+URL: "https://bowing.islandarchives.ca/"
 
     #Root assets folder (contains /css/, /js/ etc)
 ASSETS_DIR: "dist/assets"
