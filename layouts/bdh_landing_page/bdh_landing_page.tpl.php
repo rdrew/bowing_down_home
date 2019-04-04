@@ -11,7 +11,7 @@
           <?php if ($logo): ?>
           <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" class="site-branding__logo"><img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" /></a>
           <?php endif; ?>
-          <?php print render($page['branding']); ?>  
+          <?php print render($page['branding']); ?>
        </div>
     </div>
   </header>
@@ -34,6 +34,7 @@
         <ul class="action-links"><?php print render($action_links); ?></ul>
       <?php endif; ?>
       <?php print render($page['content']); ?>
+      <?php print render($page['prefooter']); ?>
       <?php print $feed_icons; ?>
     </div>
   </div>

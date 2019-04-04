@@ -7,6 +7,7 @@ template = bdh_landing_page
 regions[top-navigation] = Top Navigation
 regions[branding]       = Branding
 regions[content]        = Content
+regions[prefooter]        = Pre-footer
 regions[footer]         = Footer
 
 ; Stylesheets

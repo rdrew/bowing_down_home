@@ -32,10 +32,20 @@ $main_menu_tree = menu_tree(variable_get('menu_main_links_source', 'menu-site-me
 
 ?>
 
-<div class="panel-pane pane-custom pane-3 islandora_logo">
-<a href="http://islandarchives.ca"><img alt="" src="<?php print drupal_get_path('theme', 'bowing_down_home'); ?>/dist/images/island_archives.png"></a>
-</div>
-
+<ul class="footer_logos menu">
+  <li class="islandora_logo">
+<a href="http://islandarchives.ca"><img alt="" src="<?php print drupal_get_path('theme', 'bowing_down_home'); ?>/dist/assets/images/footer_01-island_archives.png"></a>
+</li>
+  <li class="upei_logo">
+<a href="http://islandarchives.ca"><img alt="" src="<?php print drupal_get_path('theme', 'bowing_down_home'); ?>/dist/assets/images/footer_02-upeishield.png"></a>
+</li>
+  <li class="cmh_logo">
+<a href="http://islandarchives.ca"><img alt="" src="<?php print drupal_get_path('theme', 'bowing_down_home'); ?>/dist/assets/images/footer_02-CMH.png"></a>
+</li>
+</ul>
+<div class="islandora-link">
+            <h3 class="rtecenter"><a href="http://Islandora.ca">Powered by Islandora</a></h3>
+    </div>
 
 
 
