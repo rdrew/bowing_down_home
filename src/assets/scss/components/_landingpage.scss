@@ -1,45 +1,42 @@
 .node-type-landing-page .l-header {
-  margin: 0px;
+    margin: 0px;
 }
 .top-nav {
-  font-family: $cuprum;
+    font-family: $cuprum;
 }
 .node-type-landing-page .l-header {
-	background: white;
+    background: white;
 }
 
 .node-type-landing-page {
-  .l-constrained, .l-region--footer {
-  max-width: 1140px;
-  margin: 0 auto;
+    .l-constrained,
+    .l-region--footer {
+        max-width: 1140px;
+        margin: 0 auto;
+    }
 }
-}
-
 
 .l-branding .l-constrained {
-  max-width: 600px;
-  margin: 0 auto;
+    max-width: 600px;
+    margin: 0 auto;
 }
 .l-branding.site-branding {
-	@include media($phone) {
-	background: url("/sites/all/themes/bowing_down_home/images/dirt_road.png");
-	background: url("../images/dirt_road.png");
-	background-size: cover;
-	height: 500px;
-	margin-bottom: 1em;
-	padding-bottom: 2em;
-	}
+    @include media($phone) {
+        background: url('/sites/all/themes/bowing_down_home/images/dirt_road.png');
+        background: url('../images/dirt_road.png');
+        background-size: cover;
+        height: 500px;
+        margin-bottom: 1em;
+        padding-bottom: 2em;
+    }
 }
 
 /* sets a fixed height on the block labels at the bottom of the page */
 
-
-
-
 .node--landing-page p {
     font-size: 1em;
     @include media($phone) {
-    	font-size: 1.5em;
+        font-size: 1.5em;
     }
 }
 
@@ -47,59 +44,92 @@
     padding: 1em;
 }
 
+.l-region--prefooter,
 .pane-three-features {
-  font-family: $cuprum;
+    font-family: $cuprum;
 
-  @include add-grid(12);
-  @include clearfix;
-  @include media($phone) {
-    .featured_image {
-    @include grid-span(4, 1);
-  }
-  .featured_audio {
-    @include grid-span(4, 5);
-  }
-  .featured_video {
-    @include grid-span(4, 9);
-  }
-  }
-  .views-row {
-  border: 1px solid rgb(135, 60, 63);
-  border-radius: 4px;
-  margin-bottom: 20px;
-}
+    @include add-grid(12);
+    @include clearfix;
+    @include media($phone) {
+        .featured-image,
+        .featured_image {
+            @include grid-span(4, 1);
+        }
+        .featured-audio,
+        .featured_audio {
+            @include grid-span(4, 5);
+        }
+        .featured-video,
+        .featured_video {
+            @include grid-span(4, 9);
+        }
+    }
+    .views-row {
+        border: 1px solid rgb(135, 60, 63);
+        border-radius: 4px;
+        margin-bottom: 20px;
+    }
 }
 /*=======================================
 =            3 features blocks            =
 =======================================*/
 
+.l-region--prefooter .views-field-fgs-label-s,
 .pane-three-features .views-field-fgs-label-s {
-@include media($phone) {height: 85px;}
-a {
-  color: #cacaca;
-  font-size: .9em;
+    @include media($phone) {
+        height: 85px;
+    }
+    a {
+        color: #cacaca;
+        font-size: 0.9em;
+    }
 }
-}
-
 
 /* Fancy up the mini panels on the front page? */
-.pane-three-features {  /* Orange border on top */
-border-top: 8px solid #C98559; padding-top: 16px; }
+.l-region--prefooter,
+.pane-three-features {
+    /* Orange border on top */
+    border-top: 8px solid #c98559;
+    padding-top: 16px;
+}
 
 /* Exact size thumbnails */
+
+.l-region--prefooter img,
 .pane-three-features img {
-  @include media($phone) {
-    height: 250px;
-  }
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  overflow: hidden;
+    @include media($phone) {
+        height: 250px;
+    }
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
 }
 
 /* Red label with white text */
-.pane-three-features .views-field-fgs-label-s { background-color: #873C3F; color: #cacaca; padding: 5px; }
-.pane-three-features .views-label-fgs-label-s { display: block; color: white; }
-.pane-three-features .views-field-fgs-label-s a { color: #cacaca; }
+.l-region--prefooter .views-field-fgs-label-s {
+    background-color: #873c3f;
+    color: #cacaca;
+    padding: 5px;
+}
+.l-region--prefooter .views-label-fgs-label-s {
+    display: block;
+    color: white;
+}
+.l-region--prefooter .views-field-fgs-label-s a {
+    color: #cacaca;
+}
+.pane-three-features .views-field-fgs-label-s {
+    background-color: #873c3f;
+    color: #cacaca;
+    padding: 5px;
+}
+.pane-three-features .views-label-fgs-label-s {
+    display: block;
+    color: white;
+}
+.pane-three-features .views-field-fgs-label-s a {
+    color: #cacaca;
+}
 
 /*-----  End of 3 features blocks  ------*/
