@@ -17,11 +17,14 @@ stylesheets[all][] = dist/assets/css/bowing-down-home.normalize.css
 stylesheets[all][] = dist/assets/css/bowing-down-home.hacks.css
 stylesheets[all][] = dist/assets/css/bowing-down-home.styles.css
 stylesheets[all][] = dist/assets/css/bowing-down-home.no-query.css
-
+stylesheets[all][] = libraries/slick/slick.css
+stylesheets[all][] = libraries/slick/slick-theme.css
 ; ========================================
 ; Scripts
 ; ========================================
 ;scripts[] = js/bowing-down-home.behaviors.js
+
+scripts[] = libraries/slick/slick.min.js
 scripts[] = dist/assets/js/bowing-down-home.behaviors.js
 
 ; ========================================
